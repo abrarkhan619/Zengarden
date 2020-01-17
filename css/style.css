@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+header[role=banner] {
+    background-image: url(../img/huntington.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 19rem;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    text-shadow: 3px 3px 3px black;
+}
+
+header h2 {
+    background: url(../img/zen.svg);
+    background-position:left 35% bottom 45%;;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.25rem;
+}
+
+div[role=article] {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 3rem;
+}
+
+div[role=article] p {
+    font-family: 'IBM Plex Mono', monospace;
+    padding-top: 0.75rem;
+    font-size: 0.75;
+}
+
+div[role=article] h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+}
+
+div.participation {
+    margin-top: 3rem;
+    padding-top: 1rem;
+}
+
+div.benefits {
+    padding-bottom: 1rem;
+}
+
+div.participation, div.benefits {
+    color: white;
+    background-color: #78997D;
+    background-image: url(../img/bamboo.png);
+}
+
+div.participation h3, div.benefits h3 {
+    color: black;
+}
+
+div.participation p a {
+    color: black;
+}
+
+p[role="contentinfo"] {
+    text-align: center;
+    background-color: #78997D;
+    background-size: 100%;
+    color: #E1E1E1;
+    margin-left: -4rem;
+    margin-right: -4rem;
+}
+
+p[role="contentinfo"] > a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+}
+
+p[role="contentinfo"] > a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #224B4A;
+    text-align: center;
+}
+
+.fab {
+    color: white;
+    font-size: 2rem;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+}
+
+.fab:hover {
+    color: rgb(196, 196, 196);
+}
+
+nav[role="navigation"] ul {
+    font-family: 'Roboto', sans-serif;
+    background-color: #D5E2D6;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+div.design-selection li {
+    width: 50%;
+    height: 6rem;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: rgb(199, 199, 199);
+    padding-top: 2rem;
+}
+
+.designer-name, .next, .viewall {
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(133, 133, 133);
+}
+
+.zen-resources ul {
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #78997D;
+    background-image: url(../img/bamboo.png);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+div.zen-resources li {
+    width: 50%;
+    height: 3rem;
+    padding-top: 2rem;
+    color: rgb(67, 67, 67);
+}
